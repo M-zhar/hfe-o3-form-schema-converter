@@ -48,7 +48,7 @@ public class HtmlToJsonServiceTest {
 		//Given
 		Item item = new Item();
 		item.setDescription("some description");
-		
+		//Why seDescription is used for
 		when(dao.saveItem(item)).thenReturn(item);
 		
 		User user = new User();
